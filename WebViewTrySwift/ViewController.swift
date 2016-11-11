@@ -26,7 +26,6 @@ class ViewController: UIViewController,UIWebViewDelegate {
         myWebView.loadRequest(NSURLRequest(URL: NSURL(string: "http://www.kutung.com/demo/tnq-website/index.html")!))
         
         
-        
         myWebView.reload()
         // Do any additional setup after loading the view, typically from a nib.
     }
